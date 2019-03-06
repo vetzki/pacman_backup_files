@@ -1,0 +1,16 @@
+[Desktop Entry]
+Hidden=false
+Exec=/usr/bin/pacman_backup_files
+TryExec=
+Name=Pacman Backup Files
+Icon=/usr/share/icons/pacman_backup_files/pacman-icon-symbolic.svg
+Comment=Shows pacman backup files
+GenericName=Tool
+Type=Application
+Categories=Utility
+NoDisplay=false
+Version=1.0
+StartupNotify=false
+StartupWMClass=
+DBusActivatable=false
+Terminal=false

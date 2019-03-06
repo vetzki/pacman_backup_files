@@ -1,0 +1,3 @@
+/.build_manually
+/__pycache__
+/*.pkg.tar.xz
