@@ -340,7 +340,8 @@ Arguments:
 </pre>
 </details>
 
-<details><summary>PKGBUILD</summary><pre>
+PKGBUILD:
+```
 pkgver=1
 pkgrel=1
 pkgname="pacman_backup_files"
@@ -398,7 +399,7 @@ install -Dm644 resources/pacman-icon-symbolic.svg $pkgdir/$_prefix/share/icons/p
 install -Dm644 resources/pacman-icon.png $pkgdir/$_prefix/share/icons/pacman_backup_files/pacman-icon.png
 
 }
-</pre></details>
+```
 
 #### Credits
 <div>Icons made by <a href="https://www.flaticon.com/authors/icomoon" title="Icomoon">Icomoon</a> from <a href="https://www.flaticon.com/" 			    title="Flaticon">www.flaticon.com</a> is licensed by <a href="http://creativecommons.org/licenses/by/3.0/" 			    title="Creative Commons BY 3.0" target="_blank">CC 3.0 BY</a></div>
