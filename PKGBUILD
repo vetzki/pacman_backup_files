@@ -44,7 +44,7 @@ _libdir="$pkgdir/$_prefix/lib/${pkgname}"
 # src
 find . -type f -name "*.so" -exec install -D "{}" $_libdir/"{}" \;
 install -D py_pbf_main $_libdir/py_pbf_main
-install -D py_pbf/py_pbf_defconf_json.py $_libdir/py_pbf_defconf_json.py
+install -D py_pbf/py_pbf_defconf.py $_libdir/py_pbf_defconf.py
 
 # resources
 # TODO: adjust path in .desktop and .sh file

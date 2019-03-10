@@ -21,7 +21,7 @@ along with this program.  If not, see <https://www.gnu.org/licenses/>.
 import py_pbf_gui
 import argparse
 import json
-import py_pbf_defconf_json
+import py_pbf_defconf
 
 def get_config(filename):
     '''
@@ -86,7 +86,7 @@ def main():
         print("dont start as root")
         exit(2)
 
-    config = get_config(args.config_file) if args.config_file is not None else py_pbf_defconf_json.defconf
+    config = get_config(args.config_file) if args.config_file is not None else py_pbf_defconf.defconf
     if config is False:
         print("Error in config file %s" %args.config_file)
         exit(1)
