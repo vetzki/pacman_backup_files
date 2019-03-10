@@ -346,7 +346,7 @@ pkgver=1
 pkgrel=1
 pkgname="pacman_backup_files"
 pkgdesc="show pacnew and pacsave files"
-depends=('python')
+depends=('python' 'tk')
 makedepends=('cython')
 optdepends=('kate: default editor'
             'xterm: default terminal'
