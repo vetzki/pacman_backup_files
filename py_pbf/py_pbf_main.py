@@ -48,6 +48,7 @@ def dump_config(config):
 
 def create_args():
     parser = argparse.ArgumentParser()
+    parser.prog = "pacman_backup_files" # set usage name to script wrapper
     parser.add_argument(
         "-c","--config-file",
         metavar="filename",
